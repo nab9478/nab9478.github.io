@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 500%;
+  text-shadow: 5px 5px black;
+}
+
+body{
+  background-image: url('nudemirror.jpg');
+}
+
+#container{
+  margin: 0px auto;
+  width: 500px;
+  height: 375px;
+  border: 10px black;
+}
+#videoElement{
+  width: 500px;
+  height: 375px;
+  background-color: black;
+}
+
+p{
+  margin-left: 75px;
+  margin-right: 75px;
+  background: #800020;
+  color: #DDDDDD;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 100%;
+  border: 3px solid black;
+}
