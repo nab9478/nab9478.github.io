@@ -15,6 +15,11 @@ h2{
   font-family: "Bebas Neue", cursive;
 }
 
+.firstrow{
+  display: flex;
+  justify-content: space-around;
+}
+
 #webss{
   box-shadow: 10px 10px #C2DFFF;
 }
@@ -25,4 +30,8 @@ h2{
 
 #personaleffects{
   box-shadow: 10px 10px #C7BC3C;
+}
+
+#midterm{
+  box-shadow: 10px 10px #2D0032;
 }
