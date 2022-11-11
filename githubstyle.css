@@ -15,9 +15,44 @@ h2{
   font-family: "Bebas Neue", cursive;
 }
 
-.firstrow{
+#grid{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row{
   display: flex;
   justify-content: space-around;
+  align-items: flex-start;
+}
+
+.text{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+
+  font-size: 125%;
+  font-family: "Bebas Neue", cursive;
+  visibility: hidden;
+  opacity: 0;
+  text-shadow: 1.25px 1.25px white;
+}
+
+.assignment:hover{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.photo:hover{
+  opacity: 0.15;
+}
+
+.assignment:hover div{
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
 }
 
 #webss{
@@ -34,4 +69,16 @@ h2{
 
 #midterm{
   box-shadow: 10px 10px #2D0032;
+}
+
+#cssanimation{
+  box-shadow: 10px 10px #F535AA;
+}
+
+#netart{
+  box-shadow: 10px 10px #36454F;
+}
+
+#notdone{
+  box-shadow: 10px 10px #D3D3D3;
 }
