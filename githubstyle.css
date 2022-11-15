@@ -30,8 +30,8 @@ h2{
 .text{
   position: absolute;
   top: 40%;
-  left: 30%;
-
+  left: 50%;
+  text-align: center;
   font-size: 125%;
   font-family: "Bebas Neue", cursive;
   visibility: hidden;
