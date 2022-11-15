@@ -27,10 +27,13 @@ h2{
   align-items: flex-start;
 }
 
+.assignment{
+  display: flex;
+}
+
 .text{
-  position: absolute;
-  top: 40%;
-  left: 50%;
+  align-self: flex-end;
+  justify-content: center;
   text-align: center;
   font-size: 125%;
   font-family: "Bebas Neue", cursive;
@@ -49,7 +52,7 @@ h2{
   opacity: 0.15;
 }
 
-.assignment:hover div{
+.assignment:hover ~ .text{
   visibility: visible;
   opacity: 1;
   z-index: 1;
