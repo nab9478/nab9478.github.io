@@ -1,0 +1,46 @@
+
+body{
+  background-image: linear-gradient(to bottom right, #FF69B4, blue);
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+  font-size: 300%;
+  color: white;
+}
+
+#page{
+  height: 100%;
+  display: grid;
+  grid-columns: 1fr 1fr 1fr;
+  align-items: space-between;
+}
+
+#title{
+  padding-top: 50px;
+  font-family: 'Caveat', cursive;
+}
+
+#equation{
+  color: white;
+  font-size: 500%;
+  font-family: 'Fredoka One', cursive;
+}
+
+#button{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  width: 60%;
+  height:15%;
+  font-family: 'Caveat', cursive;
+  font-size: 150%;
+  background: white;
+  color: #FF69B4
+}
+
+#button:hover{
+  cursor: pointer;
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
