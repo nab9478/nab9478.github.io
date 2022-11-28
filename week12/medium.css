@@ -29,18 +29,31 @@ body{
 }
 
 #button{
+  position: absolute;
+  z-index: 1;
   border-radius: 25px;
-  margin-bottom: 20px;
+  bottom: 50px;
   width: 60%;
-  height:60%;
+  height:15%;
   font-family: 'Caveat', cursive;
   font-size: 150%;
   background: white;
   color: #FF69B4
 }
 
+#message{
+  position: absolute;
+  z-index: 0;
+  width: 50%;
+  height: 10%;
+  bottom: 50px;
+  font-size: 50%;
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
 #button:hover{
   cursor: pointer;
-  transform: scale(1.25);
-  transition-duration: 0.5s;
 }
