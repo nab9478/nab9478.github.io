@@ -3,7 +3,7 @@ var paragraph = document.getElementById("numbers-array")
 var numbers = [8,"-", 4, "="];
 var operations = ["+","-","*", "/"]
 var newnumbers = [1,2,3,4,5,6,7,8,9]
-paragraph.innerHTML = numbers.join(" ");
+paragraph.textContent = numbers.join(" ");
 
 function newNumber(){
   var operation = operations[Math.floor(Math.random()*operations.length)];
@@ -14,7 +14,7 @@ function newNumber(){
   } else if (numbers.length >= 16){
     numbers = [8,"-", 4, "="];
   }
-  paragraph.innerHTML = numbers.join(' ');
+  paragraph.textContent = numbers.join(' ');
   var buttontitle = document.getElementById("button");
-  buttontitle.innerHTML = "try again!";
+  buttontitle.textContent = "try again!";
 }
