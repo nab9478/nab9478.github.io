@@ -1,0 +1,175 @@
+body{
+  background: #FBFBFB;
+}
+
+#gameday{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  width: 100vw;
+  display:flex;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+  color: white;
+}
+
+#toplogo{
+  padding-right: 35px;
+}
+
+#home{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  color: color;
+  background: none;
+}
+
+.section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  color:#4B0082;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 175%;
+}
+
+.section:hover{
+  cursor: pointer;
+}
+
+.section:hover .title{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+
+.section_header{
+  position: relative;
+  width: 100vw;
+  top: 100px;
+  left: 0px;
+  margin-left: -10px;
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #4B0082;
+  font-size: 125%;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+
+ul {
+  width: 100vw;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.notes{
+  visibility: hidden;
+}
+
+#myUL{
+  position: relative;
+  padding-left: 0px;
+  top: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 250%;
+}
+
+ul li:nth-child(odd) {
+  background: #E5E4E2;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #D3D3D3;
+}
+
+ul li:hover .notes{
+  visibility: visible;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #fff;
+  color: #4B0082;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the header */
+.listheader {
+  position: fixed;
+  bottom: 0px;
+  margin-left: -8px;
+  width: 100vw;
+  background-color: #4B0082;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.listheader:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 65%;
+  padding: 10px;
+  float: left;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}

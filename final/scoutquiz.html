@@ -1,0 +1,88 @@
+<html>
+
+  <head>
+    <SCRIPT language="JavaScript">
+      //Password reference: https://www.quickonlinetips.com/archives/2005/02/simple-scripts-to-password-protect-your-webpage/
+      //flip card reference: https://www.w3schools.com/howto/howto_css_flip_card.asp
+      var password;
+      var pass1="VIOLETS2223";
+      password=prompt('Enter Password',' ');
+      if (password==pass1)
+      alert('Correct Password! Click OK to Enter!');
+      else { window.location="https://nab9478.github.io/final/homepage.html";
+      }
+    </SCRIPT>
+    <title>SCOUT QUIZ</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="scoutquiz.css">
+    <script src="jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div id="gameday">
+        <img id="toplogo" src="assets/violets.png" width=200px;>
+        <h1>WBB GAMEDAY</h1>
+        <button id="home" class="section" onclick="newPage('https://nab9478.github.io/final/homepage.html');">
+          <div class="title">HOME</div>
+        </button>
+      </div>
+
+      <div class="section_header">
+        <h1>KNOW HOW TO BEAT TUFTS</h1>
+      </div>
+    </div>
+
+    <div id="main_body">
+
+      <div id="keys" class="title2">
+        <h1>Keys to Win:</h1>
+        <div class="option"><button onclick="thisCard(10);" class="text">Offensive Keys</button></div>
+        <div class="option"><button onclick="thisCard(11);" class="text">Defensive Keys</button></div>
+      </div>
+
+      <div id="flashcards">
+        <div id="back" class="title3">
+          <h1>hover for answer!</h1>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img id="front" src="assets/tufts.png" alt="Avatar" style="width:250px;height:344px;">
+            </div>
+            <div class="flip-card-back">
+              <h1 id="back-side">CLICK 'NEW CARD!' TO BEGIN</h1>
+            </div>
+          </div>
+        </div>
+
+        <div id="next">
+          <button onclick="nextCard();" class="text">new card!</button>
+        </div>
+      </div>
+
+      <div id="players" class="title2">
+        <h1>Players:</h1>
+        <div class="option"><button onclick="thisCard(0);" class="text">#25: Annika Decker</button></div>
+        <div class="option"><button onclick="thisCard(1);" class="text">#5: callie o'brien</button></div>
+        <div class="option"><button onclick="thisCard(2);" class="text">#33: Maggie Russell</button></div>
+        <div class="option"><button onclick="thisCard(3);" class="text">#30: Sarah Crossett</button></div>
+        <div class="option"><button onclick="thisCard(4);" class="text">#22: hannah kelly</button></div>
+        <div class="option"><button onclick="thisCard(5);" class="text">#11: sofia gonzalez</button></div>
+        <div class="option"><button onclick="thisCard(6);" class="text">#12: samantha sousa</button></div>
+        <div class="option"><button onclick="thisCard(7);" class="text">#55: mikayla paquette</button></div>
+        <div class="option"><button onclick="thisCard(8);" class="text">#20: mallory folliard</button></div>
+        <div class="option"><button onclick="thisCard(9);" class="text">#15: ayah harper</button></div>
+      </div>
+
+    </div>
+
+    <script src="final.js"></script>
+
+  </body>
+
+</html>

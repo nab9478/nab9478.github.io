@@ -7,7 +7,14 @@ h1{
   text-shadow: 5px 5px #CF728F;
   font-size: 600%;
   font-family: "Bebas Neue", cursive;
-  outline: 5px solid black;
+}
+
+#main{
+  margin-left: calc(50% - 50vw);
+  margin-top: -10px;
+  width: 100vw;
+  background-color: white;
+
 }
 
 h2{

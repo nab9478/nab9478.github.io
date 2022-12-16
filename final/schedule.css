@@ -1,0 +1,120 @@
+body{
+  background: #FBFBFB;
+}
+
+#gameday{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  width: 100vw;
+  display:flex;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+  color: white;
+}
+
+#toplogo{
+  padding-right: 35px;
+}
+
+#home{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  color: color;
+  background: none;
+}
+
+.section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  color:#4B0082;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 175%;
+}
+
+.section:hover{
+  cursor: pointer;
+}
+
+.section:hover .title{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+
+.section_header{
+  position: relative;
+  width: 100vw;
+  top: 100px;
+  left: 0px;
+  margin-left: -10px;
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #4B0082;
+  font-size: 125%;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+#schedule_grid{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1fr 6fr;
+  position: relative;
+  top: 100px;
+  padding: 25px;
+  font-family: 'Bebas Neue', cursive;
+  grid-gap: 50px;
+
+}
+
+#date{
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 3px solid black;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+#events{
+  grid-row: 1/6;
+}
+
+.event{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 100px;
+  border: 3px solid black;
+  padding-left: 60px;
+  padding-right: 45px;
+  box-shadow: 10px 10px 5px #A9A9A9;
+  margin-bottom: 30px;
+}
+
+h2{
+  color: #4B0082;
+}
+
+h3{
+  color: #8E8E8E;
+}
+
+#event6{
+  justify-content: center;
+}

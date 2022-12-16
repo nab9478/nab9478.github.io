@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+    <title>CHECKLIST</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="checklist.css">
+  </head>
+
+  <body>
+    <div>
+      <div id="gameday">
+        <img id="toplogo" src="assets/violets.png" width=200px;>
+        <h1>WBB GAMEDAY</h1>
+        <button id="home" class="section" onclick="newPage('file:///Users/nataliebruns/Desktop/WebDev/nab9478.github.io/final/homepage.html');">
+          <div class="title">HOME</div>
+        </button>
+      </div>
+
+      <div class="section_header">
+        <h1>ARE YOU READY TO BEAT TUFTS?</h1>
+      </div>
+
+      <ul id="myUL">
+        <li>PICK UP UNIFORM (and towel)
+          <div class="notes">(EQUIPMENT ROOM)</div>
+        </li>
+        <li>MEMORIZE SCOUT
+          <div class="notes">(FILM BEFORE SHOOT AROUND)</div>
+        </li>
+        <li>SHOES, ANKLEBRACES, SHOOTING SHIRT, AND LOOP GEAR
+          <div class="notes">(CHECK BAG)</div>
+        </li>
+        <li>WATERBOTTLE
+          <div class="notes">(FILL IT UP)</div>
+        </li>
+        <li>CHECK LAUNDRY BAG
+          <div class="notes">(GOOGLE SHEETS)</div>
+        </li>
+      </ul>
+
+    </div>
+
+    <div id="additem" class="listheader">
+      <input type="text" id="myInput" placeholder="Add item...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <script src="final.js"></script>
+
+  </body>
+
+</html>

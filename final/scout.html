@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+    <SCRIPT language="JavaScript">
+      //Password reference: https://www.quickonlinetips.com/archives/2005/02/simple-scripts-to-password-protect-your-webpage/
+      var password;
+      var pass1="VIOLETS2223";
+      password=prompt('Enter Password',' ');
+      if (password==pass1)
+      alert('Correct Password! Click OK to Enter!');
+      else { window.location="https://nab9478.github.io/final/homepage.html";
+      }
+    </SCRIPT>
+    <title>SCOUT</title>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="scout.css">
+  </head>
+
+  <body>
+    <div>
+      <div id="gameday">
+        <img id="toplogo" src="assets/violets.png" width=200px;>
+        <h1>WBB GAMEDAY</h1>
+        <button id="home" class="section" onclick="newPage('https://nab9478.github.io/final/homepage.html');">
+          <div class="title">HOME</div>
+        </button>
+      </div>
+
+      <div class="section_header">
+        <h1>LEARN HOW TO BEAT TUFTS</h1>
+      </div>
+    </div>
+
+    <div id="start">
+      <div>
+        <img class = "scout" src="assets/page1.jpg">
+      </div>
+
+      <div>
+        <img class = "scout" src="assets/page2.jpg">
+      </div>
+
+      <div>
+        <img class = "scout" src="assets/page3.jpg">
+      </div>
+    </div>
+
+    <script src="final.js"></script>
+
+  </body>
+
+</html>

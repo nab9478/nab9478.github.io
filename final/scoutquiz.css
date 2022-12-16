@@ -1,0 +1,190 @@
+body{
+  background: #FBFBFB;
+}
+
+#gameday{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  width: 100vw;
+  display:flex;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+  color: white;
+}
+
+#toplogo{
+  padding-right: 35px;
+}
+
+#home{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  color: color;
+  background: none;
+}
+
+.section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  color:#4B0082;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 175%;
+}
+
+.section:hover{
+  cursor: pointer;
+}
+
+.section:hover .title{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+
+.section_header{
+  position: relative;
+  width: 100vw;
+  top: 100px;
+  left: 0px;
+  margin-left: -10px;
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #4B0082;
+  font-size: 125%;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+#flashcards{
+  position: relative;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  background-color: transparent;
+  width: 250px;
+  height: 344px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border: 3px solid black;
+
+}
+
+.flip-card-back{
+  padding: 5px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+#next{
+  margin-bottom: 150px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#back{
+  font-family: 'Bebas Neue', cursive;
+}
+
+#main_body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#keys{
+  position: relative;
+  top: 150px;
+  margin-left: 25px;
+}
+
+#players{
+  position: relative;
+  top: 150px;
+  text-align: right;
+  margin-right: 25px;
+}
+
+.option{
+  margin: 15px;
+}
+
+.text{
+  font-family: 'Bebas Neue', cursive;
+  background: #87CEFA;
+  color: white;
+  font-size: 150%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #A9A9A9;
+}
+
+.text:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.title3{
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 150%;
+}
+
+.title2{
+  color: #C0C0C0;
+  font-size:125%;
+}

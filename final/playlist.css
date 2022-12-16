@@ -1,0 +1,121 @@
+body{
+  background: #FBFBFB;
+}
+
+#gameday{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  width: 100vw;
+  display:flex;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+  color: white;
+}
+
+#toplogo{
+  padding-right: 35px;
+}
+
+#home{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  color: color;
+  background: none;
+}
+
+.section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  color:#4B0082;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 175%;
+}
+
+.section:hover{
+  cursor: pointer;
+}
+
+.section:hover .title{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+
+.section_header{
+  position: relative;
+  width: 100vw;
+  top: 100px;
+  left: 0px;
+  margin-left: -10px;
+  background-color: #FBFBFB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #4B0082;
+  font-size: 125%;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+#playlists{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+}
+
+.music_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  border: 5px solid #4B0082;
+  border-radius: 25px;
+  margin: 35px;
+  box-shadow: 10px 10px 5px #A9A9A9;
+}
+
+.photo{
+  opacity: 0%;
+  z-index: 0;
+  border-radius: 20px;
+}
+
+.music_logo:hover .photo{
+  opacity: 20%;
+  transition-duration: 0.5s;
+}
+
+.app{
+  position: absolute;
+  align-self: center;
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+}
+
+.music_logo:hover .app{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
+
+.link{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}

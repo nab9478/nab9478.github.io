@@ -1,0 +1,90 @@
+<html>
+
+  <head>
+    <title>GAMEDAY</title>
+    <link rel="stylesheet" href="final.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+  </head>
+
+  <body>
+    <div>
+      <div id="gameday">
+        <img id="toplogo" src="assets/violets.png" width=200px;>
+        <h1>WBB GAMEDAY</h1>
+      </div>
+
+      <div id="countdown">
+        <div id="clock">
+          CLOCK
+        </div>
+        <div>UNTIL TIPOFF</div>
+      </div>
+    </div>
+
+    <div id="matchup">
+      <div class="logo">
+        <img src="assets/nyu.png" width=75px;>
+      </div>
+      <div id="vs">VS.</div>
+      <div class="logo">
+        <img src="assets/tufts.png" width=75px;>
+      </div>
+    </div>
+
+    <div id="body_info">
+      <div class="subtitle">
+        Reminders
+        <p> ● stay hydrated<br>
+           ● WBCA polls come out Tuesdays<br>
+            ● Need a personal day? Call coach<br>
+            ● Fill out food order
+      </div>
+      <div id="home-photo">
+        <img src="assets/belle_and_nat.png" width=500px;>
+      </div>
+      <div class="subtitle">
+        Upcoming Games
+        <p> 12/29 vs. stockton<br>
+           12/30 vs. bowdoin<br>
+            1/7 @ Brandeis<br>
+            1/13 @ Uchicago<br>
+            1/15 @ WashU<br>
+            <a id="fullschedule" href="https://gonyuathletics.com/sports/womens-basketball/schedule/2022-23" target="_blank">Full schedule</a>
+      </div>
+    </div>
+
+    <div id="pages-grid">
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/schedule.html');">
+        <div class="title">schedule</div>
+        <div class="lines" >⌋</div>
+      </button>
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/checklist.html');">
+        <div class="title">checklist</div>
+        <div class="lines" >⌋</div>
+      </button>
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/scout.html');">
+        <div class="title">scout</div>
+        <div class="lines" >⌋</div>
+      </button>
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/scoutquiz.html');">
+        <div class="title">scout quiz</div>
+        <div class="lines" >⌋</div>
+      </button>
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/mindset.html');">
+        <div class="title">mindset</div>
+        <div class="lines" >⌋</div>
+      </button>
+      <button class="section" onclick="newPage('https://nab9478.github.io/final/playlist.html');">
+        <div class="title">playlist</div>
+        <div class="lines" >⌋</div>
+      </button>
+    </div>
+
+    <script src="final.js"></script>
+
+  </body>
+
+</html>

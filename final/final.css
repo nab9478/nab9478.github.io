@@ -1,0 +1,133 @@
+body{
+  background: #FBFBFB;
+}
+
+#gameday{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+  padding-top: 15px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+  width: 100vw;
+  display:flex;
+  font-family: 'Bebas Neue', cursive;
+  background: black;
+  color: white;
+}
+
+#toplogo{
+  padding-right: 35px;
+}
+
+#home{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  position: absolute;
+  right: 70px;
+  align-self: center;
+  color: color;
+  background: none;
+}
+
+#countdown{
+  position: relative;
+  top: 60px;
+  margin: 10px;
+  color: #4B0082;
+  width: 90vw;
+  height: 15vh;
+  margin: 25px auto;
+  padding-top: 35px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+#clock{
+  font-size: 350%;
+}
+
+#matchup{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+#vs{
+  align-self: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 150%;
+}
+
+#body_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  grid-gap: 15px;
+  font-family: 'Bebas Neue', cursive;
+  color: #8E8E8E;
+  font-size: 150%;
+}
+
+.subtitle{
+  text-align: center;
+  border: 3px solid #C0C0C0;
+  padding: 15px;
+}
+
+.subtitle p{
+  text-align: left;
+  color: #C0C0C0;
+}
+
+#home-photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#fullschedule{
+  color: #C0C0C0;
+}
+
+#fullschedule:hover{
+  color: #4B0082;
+}
+
+#pages-grid{
+  display: grid;
+  grid-gap: 10px;
+  height: 25vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  color:#4B0082;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 175%;
+}
+
+.lines{
+  margin-left: auto;
+  align-self: flex-end;
+  font-size: 150%;
+}
+
+.section:hover{
+  cursor: pointer;
+}
+
+.section:hover .title{
+  transform: scale(1.25);
+  transition-duration: 0.5s;
+}
